@@ -1,0 +1,87 @@
+.header {
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Poppins', fantasy ;
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 3px solid rgb(91, 17, 189);
+    padding: 30px;
+    border-radius: 100px;
+    background-color: lavender;
+    align-items: center;
+  }
+
+  .player {
+    width: 250px;
+    height: 120px;
+    line-height: 1px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 1px auto;
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+    font-family:'Poppins', fantasy ;
+    font-size: 20px;
+  }
+
+  .player p {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .player h3 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 10px;
+  }
+
+  .add-form {
+    padding: 5px;
+    height: 100px;
+    width: 250px;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    font-family:'Poppins', fantasy ;
+
+  }
+
+  .button {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Poppins', fantasy ;
+  }
+
+  input {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-family:'Poppins', fantasy ; 
+  }
+
+  hr {
+    visibility: hidden;
+  }
